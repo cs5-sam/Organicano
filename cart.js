@@ -46,7 +46,7 @@ function buy(){
     db.set(itemdb);
     Swal.fire({
         position:'center',
-        type:'success',
+        icon:'success',
         title:'Purchase made successfully!',
         text:`Your purchase order is: ${itemdb.order}`,
         showConfirmButton:true,
