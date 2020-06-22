@@ -189,14 +189,14 @@ function cart2(name,price,url,con,btncart){
 
 // ANIMATION
 function animationA(){
-    const toasts = swal.mixin({
-        toast:true,
+    const Toasts = Swal.mixin({
+        toast: true,
         position:'top-end',
-        showConfirmButton:true,
+        showConfirmButton: true,
         timer:1000
     });
-    toasts({
-        type:'success',
+    Toasts.fire({
+        icon:'success',
         title:'Added to cart'
     });
 }

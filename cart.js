@@ -44,7 +44,7 @@ function buy(){
         total:total
     }
     db.set(itemdb);
-    swal({
+    Swal.fire({
         position:'center',
         type:'success',
         title:'Purchase made successfully!',
